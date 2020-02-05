@@ -1,0 +1,113 @@
+#shapka {
+	color: white;
+	background: #3b5998;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-left: -10px;
+	margin-top: -27px;
+	width: 1538px;
+	height: 87px;
+	box-sizing: border-box;
+}
+#shapka h1{
+   font-family: Helvetica, sans-serif;
+   margin-left: 275px;
+   padding-top: 25px;
+   font-size: 40px;
+   font-weight: bold;
+}
+#mail {
+	position: absolute;
+	margin-left: 775px;
+	margin-top: -90px;
+	line-height: 25px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	border-bottom: 1px solid;
+}
+#parol {
+	position: absolute;
+	margin-left: 1025px;
+	margin-top: -90px;
+	line-height: 25px;
+}
+#vhod {
+	position: absolute;
+	margin-left: 1200px;
+	margin-top: -65px;
+	line-height: 25px;
+
+}
+#map {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #10075b;
+    font-size: 20px;
+    margin-left: 250px;
+    padding-top: 45px;
+    line-height: 30px;
+    margin-top: 0px;
+}
+#main {
+	background: #dfe3ee;
+	width:1538px;
+	height: 625px;
+	margin-left: -8px;
+}
+#registration {
+	line-height: 20px;
+	margin-left: 850px;
+	margin-top: -300px;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+.forms {
+	border-radius: 5px;
+    border: 1px solid #B1B0B3;
+	height: 35px;
+	font-size: 20px;
+	width: 200px;
+	padding-left: 10px
+}
+.forms3 {
+	
+	height: 35px;
+	font-size: 20px;
+	width: 400px;
+	border-radius: 5px;
+	border: 1px solid #B1B0B3;
+	padding-left: 10px
+}
+#reg {
+	border-color: #0C9E2C;
+	height: 40px;
+	font-size: 20px;
+	width: 200px;
+	background: #229A03;
+	color: white;
+	border-radius: 5px;
+}
+#reg:hover {
+	background-color: #1DD200;
+	border: 2px solid #07AA2B;
+}
+.footer {
+	margin-left: 300px;
+	margin-top: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+#email {
+	border-radius: 3px;
+	border: 1px solid grey;
+	height: 20px;
+}
+#password {
+		border-radius: 3px;
+	border: 1px solid grey;
+	height: 20px;
+}
+
+

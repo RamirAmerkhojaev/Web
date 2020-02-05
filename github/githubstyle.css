@@ -1,0 +1,147 @@
+#shapka {
+	width: 1520px;
+	height: 60px;
+	padding: 8px;
+	background: #24292e;
+   margin-top: -10px;
+   margin-left: -25px;
+   color: white;
+   font-size: 14px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: blue;
+}
+body {
+	 font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+main {
+	background: url("newgit.PNG");
+	width: 1520px;
+	height: 700px;
+	color: white;
+	margin-left: -8px;
+    background-position: center 10%;
+    background-size: cover;
+}
+img {
+	margin-left: 210px;
+	padding-top: 10px;
+}
+
+.block1 {
+	position: absolute;
+    margin-left: -120px;
+    margin-top: 70px;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+     background: white;
+     z-index: 2;
+}
+.block2 {
+	position: absolute;
+    margin-left: -90px;
+    margin-top: 70px;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+     background: white;
+     z-index: 2;
+}
+.block3 {
+	position: absolute;
+    margin-left: -80px;
+    margin-top: 70px;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+     background: white;
+     z-index: 2;
+}
+.wlinks {
+	color: white;
+}
+
+.wlinks:hover {
+	color: grey;
+}
+/* скрываем чекбоксы и блоки с содержанием */
+.hide, .hide + label ~ div {
+    display: none; 
+}
+/* вид текста label при активном переключателе */
+.hide:hover + label {
+    color: grey;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: inline-block;
+}
+#searc {
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: -25px;
+	border-radius: 2px;
+	width: 200px;
+	height: 30px;
+	font-size: 14px;
+	background-color: #444249;
+	padding: 10px;
+	border: none;
+}
+#searc:focus {
+    background-color: white;
+}
+::placeholder {
+  color: white;
+}
+#built {
+	position: absolute;
+	font-weight: 500;
+	font-size: 20px;
+	margin-left: 300px;
+	margin-top: 100px; 
+}
+#registration {
+	position: absolute;
+	background-color: white;
+	margin-left: 825px;
+	margin-top: 60px;
+	width: 309px;
+	height: 460px;
+	display: block;
+	text-align: left;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 10px 24px;
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+    display: inline-block;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+.forms {
+	width: 300px;
+	height: 35px;
+	border-radius: 3px;
+	border: 1px solid #A8A8A8;
+	font-size: 14px;
+	margin-top: 5px;
+}
+input[type=submit] {
+	background-color: #2ebc4f;
+	border-radius: 5px;
+	    font-weight: 500;
+	    border: none;
+	    color: white;
+}
+input[type=submit]:hover {
+	background-color: #009500;
+	;
+}
+
+
+

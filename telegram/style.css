@@ -1,0 +1,146 @@
+.name {
+	color: white;
+	padding-left: 630px;
+	padding-top: 125px;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+img {
+	position: absolute;
+	width: 40px;
+	margin-left: -113px;
+	margin-top: -11px;
+}
+#next {
+	position: absolute;
+	color: white;
+	margin-top: -30px;
+	padding-left: 900px;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+#sign {
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding-left: 60px;
+	padding-top: 15px;
+
+}
+#centertext {
+   font-family: sans-serif;
+   font-size: 13px;
+   color: grey;
+   padding: 30px 60px;
+   line-height: 22px;
+   text-align: center;
+}
+.centertext {
+   font-family: sans-serif;
+   font-size: 13px;
+   color: grey;
+   padding-left: 60px;
+   line-height: 22px;
+}
+#form1 {
+   margin-left: 60px; 
+   width: 270px;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   font-size: 13px;
+   color: grey;
+   line-height: 30px;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+#form2 {
+   width: 165px;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   font-size: 13px;
+   color: grey;
+   line-height: 30px;
+   padding-top: 10px;
+   padding-bottom: 15px;
+   border-bottom: 2px inset rgb(190, 191, 192);
+}
+#form2:hover {
+    border-color: blue;
+}
+
+.upblock {
+    background: rgb(86, 130, 163);
+    height: 226px;
+    margin-top: -16px;
+    margin-left: -8px;
+    width: 102%;
+    box-sizing: border-box;
+}
+#code {
+	margin-top: -30px;
+	text-align: center;
+}
+.welcome {
+	position:absolute;
+	margin-top: 300px;
+	margin-left: 629px;
+   text-align: center;
+    font-family: sans-serif;
+   font-size: 13px;
+   color: rgb(135, 124, 176);
+   line-height: 22px;
+
+}
+.centerblock {
+	position: absolute;
+	background: white;
+	box-sizing: border-box;
+	margin-left: 561.6px;
+	margin-top: -55px;
+	border-radius: 2px;
+	width: 400px;
+	height: 350px;
+}
+.downblock {
+	background: rgb(230, 233, 239);
+	height: 750px;
+	width: 102%;
+	margin-left: -8px;
+	box-sizing: border-box;
+}
+
+/* скрываем чекбоксы и блоки с содержанием */
+.hide, .hide + label ~ div {
+    display: none; 
+}
+/* вид текста label */
+.hide + label,
+.hide:checked + label {
+    color: rgb(135, 124, 176);
+    cursor: pointer;
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: red;
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+
+.hide:checked + label + div {
+    display: block;
+    text-align: left;
+    padding-left: 60px;
+    line-height: 22px;
+    font-size: 13px;
+    position: absolute;
+	background: white;
+	box-sizing: border-box;
+	margin-left: -70px;
+	margin-top: 20px;
+	border-radius: 2px;
+	width: 400px;
+	height: 300px;
+}
+
+
