@@ -1,0 +1,51 @@
+body {
+	font-family: 'Crete Round', serif;
+	font-family: 'Open Sans', sans-serif;
+}
+#shapka {
+	background: #24292e;
+	color: white;
+	height: 90px;
+	margin-left: -8px;
+    margin-top: -8px;
+}
+#shapka h1 {
+	position: absolute;
+	margin-left: 70px;
+    margin-top: 20px;	
+}
+#root {
+	text-align: center;
+}
+.container {
+	margin-top: 70px;
+}
+#new-task {
+	height: 30px;
+	border-radius: 2px;
+	border: 1px solid grey;
+	padding-left: 20px;
+	font-size: 16px;
+	width: 200px;
+}
+#add {
+	height: 30px;
+	border-radius: 2px;
+	border: 1px solid grey;
+	background-color: #0F4DA8;
+	color: white;
+	width: 50px
+}
+#add:hover {
+	background-color: #4867D6;
+}
+#tasks li{
+	margin-left: 500px;
+	height: 50px;
+	border-radius: 2px;
+	border: 1px solid grey;
+    width: 400px;
+}
+#tasks li:hover {
+	background-color: #F6F5F5;
+}
