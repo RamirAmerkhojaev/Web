@@ -3,7 +3,7 @@
 	var inputTask = document.getElementById('new-task');
 	var tasks = document.getElementById('tasks');
 
-	function createElement(task) { 
+	function create(task) { 
 
 		var listItem = document.createElement('li');
 		var checkbox = document.createElement('button');
@@ -30,7 +30,7 @@
 
 	function addTask(){
 		if(inputTask.value){
-			var listItem = createElement(inputTask.value);
+			var listItem = create(inputTask.value);
 			tasks.appendChild(listItem);
 			tasksEvents(listItem, unfinishTask);
 			inputTask.value =  "";
