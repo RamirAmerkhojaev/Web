@@ -1,0 +1,34 @@
+<h2>Products</h2>
+
+<div *ngFor="let product of products">
+
+  <h3>
+    <a [title] = "product.name" [href] = "product.textlink">
+      {{product.name}}
+    </a><br><br>
+      <ngx-image-zoom class = 'image'
+    [thumbImage]=product.link1
+    [magnification]="1"
+    [enableScrollZoom]="true"
+    [enableLens]="true"
+    [lensWidth]="200"
+    
+></ngx-image-zoom>
+  </h3>
+   <p>
+      <span *ngIf="product.rating != 0">Rating: {{product.rating}} <img class = "ali" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Star_red.svg/1200px-Star_red.svg.png" alt = "*"></span><br><br>
+      <span>Price: {{product.price}} tenge <br></span>
+  </p>
+  <p>
+      {{ product.description }}
+  </p>
+
+  <share-buttons theme="material-dark" show="11"  image="https://loremflickr.com/320/240"></share-buttons>
+
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
