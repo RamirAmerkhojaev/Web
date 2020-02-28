@@ -1,0 +1,12 @@
+
+<h2>Products</h2>
+
+
+<div class = 'main'>
+	<div class = 'photka' *ngFor = "let product of products">
+		 <a routerLink="/categories/{{id2}}/products/{{product.id}}/description">
+		 	<img class = 'image' [src]="product.link" [alt] = 'product.name'><span>{{product.name}}</span>
+		 </a>
+	</div>
+</div>
+
