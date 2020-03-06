@@ -1,5 +1,5 @@
 .list {
-	margin-top: 100px;
+	
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
@@ -8,8 +8,7 @@
 }
 
 h2 {
-	margin-left: 70px;
-	text-align: center;
+	margin-left: 80px;
 	font-size: 30px;
 }
 .pic {

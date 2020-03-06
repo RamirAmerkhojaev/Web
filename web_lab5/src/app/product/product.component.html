@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <div>
 	   <p>
 	   	  <span>{{products.name}}</span><br><br>
@@ -6,12 +8,12 @@
 	      {{ products.description }}
 	  </p>
 		  <button shareButton="facebook" [style.backgroundColor]="share.prop.facebook.color">
-		  	<fa-icon class = "icons" [icon]="fbIcon" size="lg"></fa-icon>
+		  	<a class="fa fa-facebook"></a>
 		  </button>	
 		  <button shareButton="twitter" [style.backgroundColor]="share.prop.twitter.color">
-		  	<fa-icon class = "icons" [icon]="twIcon" size="lg" ></fa-icon>
+		  	<a class="fa fa-twitter"></a>
 		  </button>	
 		  <button shareButton="pinterest" [style.backgroundColor]="share.prop.pinterest.color">
-		  	<fa-icon class = "icons" [icon]="pinIcon" size="lg"></fa-icon>
-		  </button>	
+             <a class="fa fa-pinterest"></a>		  
+         </button>	
   </div>

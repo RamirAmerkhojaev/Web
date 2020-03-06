@@ -4,7 +4,8 @@ import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { CategoryService } from '../category.service';
 import { ShareService } from '@ngx-share/core';
-import { faTwitterSquare } from '@fortawesome/free-brands-svg-icons/faTwitterSquare';
+
+import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
 import { faPinterestP } from '@fortawesome/free-brands-svg-icons/faPinterestP';
 
@@ -16,7 +17,7 @@ import { faPinterestP } from '@fortawesome/free-brands-svg-icons/faPinterestP';
 })
 export class ProductComponent implements OnInit {
 
-  twIcon = faTwitterSquare;
+  twIcon = faTwitter;
   fbIcon = faFacebookF;
   pinIcon = faPinterestP;
 
