@@ -9,10 +9,14 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { CategoriesComponent } from './categories/categories.component';
 
-import { ShareButtonsModule } from '@ngx-share/buttons';
 import { HttpClientModule } from '@angular/common/http';
-import { HttpClientJsonpModule } from '@angular/common/http';
+import { HttpClientJsonpModule} from '@angular/common/http';
+import { ShareModule } from '@ngx-share/core';
+
 import { ProductComponent } from './product/product.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
+import { NgxImageZoomModule } from 'ngx-image-zoom';
 
 
 const routes: Routes = [
@@ -23,6 +27,7 @@ const routes: Routes = [
 
 ];
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,12 +37,12 @@ const routes: Routes = [
     ProductComponent
   ],
   imports: [
-  HttpClientJsonpModule,
-  HttpClientModule,
-    ShareButtonsModule.withConfig({
-      debug: true
-    }),
+    HttpClientModule,
+    HttpClientJsonpModule,
+    ShareModule,
     BrowserModule,
+    FontAwesomeModule,
+    NgxImageZoomModule,
     AppRoutingModule,
     RouterModule.forRoot(routes)
   ],

@@ -2,7 +2,11 @@ import { Component, NgModule, OnInit } from '@angular/core';
 import { Product } from '../product';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import {CategoryService} from '../category.service';
+import { CategoryService } from '../category.service';
+import { ShareService } from '@ngx-share/core';
+import { faTwitterSquare } from '@fortawesome/free-brands-svg-icons/faTwitterSquare';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
+import { faPinterestP } from '@fortawesome/free-brands-svg-icons/faPinterestP';
 
 
 @Component({
@@ -11,11 +15,18 @@ import {CategoryService} from '../category.service';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit {
+
+  twIcon = faTwitterSquare;
+  fbIcon = faFacebookF;
+  pinIcon = faPinterestP;
+
   products: Product;
+
   constructor(
   private route: ActivatedRoute,
   private categoryService: CategoryService,
-  private location: Location
+  private location: Location,
+  public share: ShareService
 ) {}
   
   getProduct(): void {

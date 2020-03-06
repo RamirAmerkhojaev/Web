@@ -1,11 +1,17 @@
 
 <h2>Products</h2>
 
-
 <div class = 'main'>
 	<div class = 'photka' *ngFor = "let product of products">
 		 <a routerLink="/categories/{{id2}}/products/{{product.id}}/description">
-		 	<img class = 'image' [src]="product.link" [alt] = 'product.name'><span>{{product.name}}</span>
+		 	{{product.name}}
+		 	<lib-ngx-image-zoom
+		       [thumbImage]=product.link
+		       [magnification]="1"
+  			   [enableScrollZoom]="true"
+    		   [enableLens]="true"
+   			   [lensWidth]="200"
+		    ></lib-ngx-image-zoom>
 		 </a>
 	</div>
 </div>

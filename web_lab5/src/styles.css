@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Spectral+SC:700');
 
-@import '~@ngx-share/button/themes/material/material-dark-theme.css';
-@import '~@ngx-share/button/themes/modern/modern-light-theme.css';
+@import '~@ngx-share/button/themes/default/default-theme.css';
 
 * {
   font-family: 'Roboto', Arial, sans-serif;

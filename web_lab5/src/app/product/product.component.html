@@ -5,4 +5,13 @@
 	      <span>Price: {{products.price}} tenge <br><br></span>
 	      {{ products.description }}
 	  </p>
+		  <button shareButton="facebook" [style.backgroundColor]="share.prop.facebook.color">
+		  	<fa-icon class = "icons" [icon]="fbIcon" size="lg"></fa-icon>
+		  </button>	
+		  <button shareButton="twitter" [style.backgroundColor]="share.prop.twitter.color">
+		  	<fa-icon class = "icons" [icon]="twIcon" size="lg" ></fa-icon>
+		  </button>	
+		  <button shareButton="pinterest" [style.backgroundColor]="share.prop.pinterest.color">
+		  	<fa-icon class = "icons" [icon]="pinIcon" size="lg"></fa-icon>
+		  </button>	
   </div>

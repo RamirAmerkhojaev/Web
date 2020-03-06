@@ -8,12 +8,11 @@ h2 {
 	margin:100px;
 }
 
-span {
-	position: absolute;
-	margin-top: -50px;
-	margin-top: 1px;
+a {
+
 	font-size: 30px;
-	margin-left: -900px;
+	text-align: center;
+
 }
 
 
