@@ -5,14 +5,7 @@
 	<div class = 'photka' *ngFor = "let product of products">
 		 <a routerLink="/categories/{{id2}}/products/{{product.id}}/description">
 		 	{{product.name}}
-		 	<lib-ngx-image-zoom
-		       [thumbImage]=product.link
-		       [magnification]="1"
-  			   [enableScrollZoom]="true"
-    		   [enableLens]="true"
-   			   [lensWidth]="200"
-   			   [lensHeight]="200"
-		    ></lib-ngx-image-zoom>
+		    <img src="product.link" alt="product.name">
 		 </a>
 	</div>
 </div>
