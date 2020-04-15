@@ -37,12 +37,12 @@ const routes: Routes = [
     ProductComponent
   ],
   imports: [
-    HttpClientModule,
-    HttpClientJsonpModule,
-    ShareModule,
     BrowserModule,
     FontAwesomeModule,
     NgxImageZoomModule,
+    HttpClientModule,
+    HttpClientJsonpModule,
+    ShareModule,
     AppRoutingModule,
     RouterModule.forRoot(routes)
   ],
