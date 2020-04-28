@@ -17,6 +17,7 @@ export class AppComponent implements OnInit{
   constructor(private companyService: CompanyService){
 
   }
+  
   ngOnInit(){
   	let token = localStorage.getItem('token');
     if (token){

@@ -5,7 +5,8 @@ class Company(models.Model):
 	description = models.TextField(default = '')
 	city = models.CharField(max_length = 200)
 	address = models.TextField(default = "")
-
+    
+ 
 	def to_string(self):
 		return "{}: {}".format(self.id, self.name)
 
